@@ -10,6 +10,8 @@
 }
 
 body{
+    min-height: 100vh;
+    background-color: darkgray;
     margin: auto;
     padding: auto;
     font-family: cursive;
@@ -19,7 +21,7 @@ body p{
     font-size: 1.5em;
     font-weight: bold;
     line-height: 2em;
-    padding: 0px 15px;
+    padding-left: 30px;
 }
 
 main{
@@ -47,6 +49,7 @@ header h1{
 header a{
     color: white;
     text-decoration: none;
+    font-weight: bolder;
 }
 
 header a:hover{
@@ -55,11 +58,12 @@ header a:hover{
 }
 
 section{
+    background-color: white;
     padding: 10px;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.308);
     /* teste */
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     /*  teste */
 }
 
